@@ -1,0 +1,100 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -DCMAKE_TOOLCHAIN_FILE=/Users/alexey/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake -G Ninja -S /Users/alexey/CLionProjects/untitled -B /Users/alexey/CLionProjects/untitled/cmake-build-debug
+-- gcc / clang visibility enabled
+-- Configuring SOCI: 
+-- SOCI_VERSION                             = 4.1.0 
+-- SOCI_ABI_VERSION                         = 4.1 
+-- SOCI_SHARED                              = ON 
+-- SOCI_STATIC                              = ON 
+-- SOCI_TESTS                               = ON 
+-- SOCI_ASAN                                = OFF 
+-- LIB_SUFFIX                               =  
+-- Looking for SOCI dependencies: 
+-- Threads: 
+-- CMAKE_THREAD_LIBS_INIT                   =  
+-- Boost: 
+-- BOOST_RELEASE_VERSION                    =  
+-- BOOST_INCLUDE_DIR                        =  
+-- BOOST_LIBRARIES                          =  
+-- MySQL: 
+-- Found MySQL: /opt/homebrew/include/mysql, /opt/homebrew/lib/libmysqlclient.dylib
+-- MYSQL_INCLUDE_DIR                        = /opt/homebrew/include/mysql 
+-- MYSQL_LIBRARIES                          = /opt/homebrew/lib/libmysqlclient.dylib 
+-- ODBC: 
+-- WARNING: ODBC libraries not found, some features will be disabled. 
+-- Oracle: 
+-- ORACLE_HOME=
+-- None of the supported Oracle versions (21;20;19;18;12;11;10) could be found, consider updating ORACLE_VERSIONS if the version you use is not among them.
+-- WARNING: Oracle libraries not found, some features will be disabled. 
+-- PostgreSQL: 
+-- WARNING: PostgreSQL libraries not found, some features will be disabled. 
+-- SQLite3: 
+-- SQLITE3_INCLUDE_DIR                      = /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include 
+-- SQLITE3_LIBRARIES                        = /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/libsqlite3.tbd 
+-- Firebird: 
+-- SOCI_FIREBIRD_EMBEDDED                   = OFF 
+-- WARNING: Firebird libraries not found, some features will be disabled. 
+-- DB2: 
+-- WARNING: DB2 libraries not found, some features will be disabled. 
+-- Configuring SOCI core library: 
+-- SOCI_CORE_TARGET                         = soci_core 
+-- SOCI_CORE_TARGET_OUTPUT_NAME             = soci_core 
+-- SOCI_CORE_DEPS_LIBS                      = /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/libdl.tbd Boost::date_time 
+-- SOCI_CORE_INCLUDE_DIRS                   = /opt/homebrew/include /opt/homebrew/include /Users/alexey/CLionProjects/untitled/cmake-build-debug/soci /Users/alexey/CLionProjects/untitled/lib/soci/include /Users/alexey/CLionProjects/untitled/cmake-build-debug/soci/include /Users/alexey/CLionProjects/untitled/lib/soci/include/private /Users/alexey/CLionProjects/untitled/cmake-build-debug/soci/src/core 
+-- WITH_BOOST                               = ON 
+-- COMPILE_DEFINITIONS                      = SOCI_ABI_VERSION="4.1" HAVE_DL=1 BOOST_ALL_NO_LIB SOCI_LIB_PREFIX="libsoci_" SOCI_LIB_SUFFIX=".dylib" SOCI_DEBUG_POSTFIX="" 
+-- 
+-- Configuring SOCI backend libraries: 
+-- Found MySQL: /opt/homebrew/include/mysql, /opt/homebrew/lib/libmysqlclient.dylib
+-- ORACLE_HOME=
+-- None of the supported Oracle versions (21;20;19;18;12;11;10) could be found, consider updating ORACLE_VERSIONS if the version you use is not among them.
+-- Empty - SOCI backend skeleton for new backends development 
+-- SOCI_EMPTY                               = ON 
+-- SOCI_EMPTY_TARGET                        = soci_empty 
+-- SOCI_EMPTY_OUTPUT_NAME                   = soci_empty 
+-- SOCI_EMPTY_COMPILE_DEFINITIONS           = SOCI_ABI_VERSION="4.1" HAVE_DL=1 BOOST_ALL_NO_LIB 
+-- SOCI_EMPTY_INCLUDE_DIRECTORIES           = /opt/homebrew/include /opt/homebrew/include /Users/alexey/CLionProjects/untitled/cmake-build-debug/soci /Users/alexey/CLionProjects/untitled/lib/soci/include /Users/alexey/CLionProjects/untitled/cmake-build-debug/soci/include /Users/alexey/CLionProjects/untitled/lib/soci/include/private /Users/alexey/CLionProjects/untitled/lib/soci/include/private 
+-- MySQL - SOCI backend for MySQL 
+-- SOCI_MYSQL                               = ON 
+-- SOCI_MYSQL_TARGET                        = soci_mysql 
+-- SOCI_MYSQL_OUTPUT_NAME                   = soci_mysql 
+-- SOCI_MYSQL_COMPILE_DEFINITIONS           = SOCI_ABI_VERSION="4.1" HAVE_DL=1 BOOST_ALL_NO_LIB 
+-- SOCI_MYSQL_INCLUDE_DIRECTORIES           = /opt/homebrew/include /opt/homebrew/include /Users/alexey/CLionProjects/untitled/cmake-build-debug/soci /Users/alexey/CLionProjects/untitled/lib/soci/include /Users/alexey/CLionProjects/untitled/cmake-build-debug/soci/include /Users/alexey/CLionProjects/untitled/lib/soci/include/private /Users/alexey/CLionProjects/untitled/lib/soci/include/private /opt/homebrew/include/mysql 
+-- SQLite3 - SOCI backend for SQLite 3 
+-- SOCI_SQLITE3                             = ON 
+-- SOCI_SQLITE3_TARGET                      = soci_sqlite3 
+-- SOCI_SQLITE3_OUTPUT_NAME                 = soci_sqlite3 
+-- SOCI_SQLITE3_COMPILE_DEFINITIONS         = SOCI_ABI_VERSION="4.1" HAVE_DL=1 BOOST_ALL_NO_LIB 
+-- SOCI_SQLITE3_INCLUDE_DIRECTORIES         = /opt/homebrew/include /opt/homebrew/include /Users/alexey/CLionProjects/untitled/cmake-build-debug/soci /Users/alexey/CLionProjects/untitled/lib/soci/include /Users/alexey/CLionProjects/untitled/cmake-build-debug/soci/include /Users/alexey/CLionProjects/untitled/lib/soci/include/private /Users/alexey/CLionProjects/untitled/lib/soci/include/private /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include 
+-- 
+-- Configuring SOCI tests: 
+-- SOCI_EMPTY_TEST_CONNSTR                  = dummy
+-- SOCI_MYSQL_TEST_CONNSTR                  = db=soci_test
+-- MS Access test disabled on non-Windows platform
+-- ODBC DB2 test disabled.
+-- SOCI_SQLITE3_TEST_CONNSTR                = :memory:
+-- 
+-- You will link dynamically to the MySQL client library (set with -DMYSQLCLIENT_STATIC_LINKING=<bool>)
+-- Searching for dynamic libraries with the base name(s) "mysqlclient_r mysqlclient"
+-- mysql_config was found /opt/homebrew/bin/mysql_config
+-- MYSQL_LIB_DIR_LIST = 
+-- MySQL client environment/cmake variables set that the user can override
+--   MYSQL_DIR                   : 
+--   MYSQL_INCLUDE_DIR           : /opt/homebrew/include/mysql
+--   MYSQL_LIB_DIR               : /opt/homebrew/Cellar/mysql/8.3.0_1/lib
+--   MYSQL_CONFIG_EXECUTABLE     : /opt/homebrew/bin/mysql_config
+--   MYSQL_CXX_LINKAGE           : 1
+--   MYSQL_CFLAGS                : -I/opt/homebrew/Cellar/mysql/8.3.0_1/include/mysql
+--   MYSQL_CXXFLAGS              : -I/opt/homebrew/Cellar/mysql/8.3.0_1/include/mysql
+--   MYSQLCLIENT_STATIC_LINKING  : 
+--   MYSQLCLIENT_NO_THREADS      : 
+-- MySQL client optional environment/cmake variables set by the user
+--   MYSQL_EXTRA_LIBRARIES       : 
+--   MYSQL_LINK_FLAGS            : 
+-- MySQL client settings that the user can't override
+--   MYSQL_VERSION               : 8.3.0
+--   MYSQL_VERSION_ID            : 80300
+--   MYSQL_LIB                   : /opt/homebrew/Cellar/mysql/8.3.0_1/lib/libmysqlclient.dylib
+--   MYSQL_LIBRARIES             : mysqlclient;z;zstd;ssl;crypto;resolv
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/alexey/CLionProjects/untitled/cmake-build-debug

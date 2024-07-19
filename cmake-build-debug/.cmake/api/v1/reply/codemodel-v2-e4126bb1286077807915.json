@@ -1,0 +1,464 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "soci",
+					"childIndexes" : 
+					[
+						2,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-soci-Debug-3309cfd1367ef178a0c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/soci",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "soci/src",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-soci.src-Debug-6e03a6fc2163cea7f90b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "lib/soci/src"
+				},
+				{
+					"build" : "soci/src/core",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-soci.src.core-Debug-3675f053ed54f5524066.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "lib/soci/src/core",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "soci/src/backends",
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-soci.src.backends-Debug-baa94dbe7ff6c26a388b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "lib/soci/src/backends"
+				},
+				{
+					"build" : "soci/src/backends/empty",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-soci.src.backends.empty-Debug-d7c6a47b654398ea15a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "lib/soci/src/backends/empty",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "soci/src/backends/mysql",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-soci.src.backends.mysql-Debug-4522edaec50d66506dd4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "lib/soci/src/backends/mysql",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"build" : "soci/src/backends/sqlite3",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-soci.src.backends.sqlite3-Debug-c9d92791fcad529fcd46.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "lib/soci/src/backends/sqlite3",
+					"targetIndexes" : 
+					[
+						11,
+						12
+					]
+				},
+				{
+					"build" : "soci/tests",
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					],
+					"jsonFile" : "directory-soci.tests-Debug-3b67938468b1a90c0f8f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "lib/soci/tests"
+				},
+				{
+					"build" : "soci/tests/empty",
+					"jsonFile" : "directory-soci.tests.empty-Debug-18a14ba0561b1227b9aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "lib/soci/tests/empty",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "soci/tests/db2",
+					"jsonFile" : "directory-soci.tests.db2-Debug-d3862d81d507c1dbb3ea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "lib/soci/tests/db2"
+				},
+				{
+					"build" : "soci/tests/firebird",
+					"jsonFile" : "directory-soci.tests.firebird-Debug-bc8c962b0bd947b66194.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "lib/soci/tests/firebird"
+				},
+				{
+					"build" : "soci/tests/mysql",
+					"jsonFile" : "directory-soci.tests.mysql-Debug-3bf93e1d9c1a4b198d06.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "lib/soci/tests/mysql",
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				},
+				{
+					"build" : "soci/tests/odbc",
+					"jsonFile" : "directory-soci.tests.odbc-Debug-e6e8adaa2632408c4cba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "lib/soci/tests/odbc"
+				},
+				{
+					"build" : "soci/tests/oracle",
+					"jsonFile" : "directory-soci.tests.oracle-Debug-d8e44cd5f42af5277d55.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "lib/soci/tests/oracle"
+				},
+				{
+					"build" : "soci/tests/postgresql",
+					"jsonFile" : "directory-soci.tests.postgresql-Debug-5d5897f14b718498734b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "lib/soci/tests/postgresql"
+				},
+				{
+					"build" : "soci/tests/sqlite3",
+					"jsonFile" : "directory-soci.tests.sqlite3-Debug-f94e1386b632c5272817.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "lib/soci/tests/sqlite3",
+					"targetIndexes" : 
+					[
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "untitled",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					],
+					"name" : "SOCI",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "check::@ec6a6f458733ff413800",
+					"jsonFile" : "target-check-Debug-2fcdd951622ab73d4a2d.json",
+					"name" : "check",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "soci_core::@5071e9cea338107839cb",
+					"jsonFile" : "target-soci_core-Debug-9e82ff61f13f8a1e5a11.json",
+					"name" : "soci_core",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "soci_core_static::@5071e9cea338107839cb",
+					"jsonFile" : "target-soci_core_static-Debug-81dcc130b8c8b98e65cd.json",
+					"name" : "soci_core_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "soci_empty::@2e42746ed4bc27cd876a",
+					"jsonFile" : "target-soci_empty-Debug-8dcd9ce36bfc316d6d3e.json",
+					"name" : "soci_empty",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "soci_empty_static::@2e42746ed4bc27cd876a",
+					"jsonFile" : "target-soci_empty_static-Debug-5c4dd1c71cd5cf5aaa37.json",
+					"name" : "soci_empty_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "soci_empty_test::@56e498effce7896c8028",
+					"jsonFile" : "target-soci_empty_test-Debug-f057bbbea602ce847912.json",
+					"name" : "soci_empty_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "soci_empty_test_static::@56e498effce7896c8028",
+					"jsonFile" : "target-soci_empty_test_static-Debug-3deb502e8ab84eaccb9a.json",
+					"name" : "soci_empty_test_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "soci_mysql::@366e06b44f5de780394d",
+					"jsonFile" : "target-soci_mysql-Debug-0f705bd289b34d8c138a.json",
+					"name" : "soci_mysql",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "soci_mysql_static::@366e06b44f5de780394d",
+					"jsonFile" : "target-soci_mysql_static-Debug-823897666d54bc9cd0e2.json",
+					"name" : "soci_mysql_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "soci_mysql_test::@bbdaaae6258f2afec75d",
+					"jsonFile" : "target-soci_mysql_test-Debug-1a5619fa14a50091f91b.json",
+					"name" : "soci_mysql_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "soci_mysql_test_static::@bbdaaae6258f2afec75d",
+					"jsonFile" : "target-soci_mysql_test_static-Debug-af2d336be7a2ff7dfbe1.json",
+					"name" : "soci_mysql_test_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "soci_sqlite3::@a5d76e1db564cbee973a",
+					"jsonFile" : "target-soci_sqlite3-Debug-9a4e5ab60e7fc6fa0267.json",
+					"name" : "soci_sqlite3",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "soci_sqlite3_static::@a5d76e1db564cbee973a",
+					"jsonFile" : "target-soci_sqlite3_static-Debug-1a9f6ceab0130bfc363f.json",
+					"name" : "soci_sqlite3_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "soci_sqlite3_test::@29d6e5bae5a57bbd37e8",
+					"jsonFile" : "target-soci_sqlite3_test-Debug-cdf088202f04e3f9434e.json",
+					"name" : "soci_sqlite3_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "soci_sqlite3_test_static::@29d6e5bae5a57bbd37e8",
+					"jsonFile" : "target-soci_sqlite3_test_static-Debug-0d1f105e526980b650b8.json",
+					"name" : "soci_sqlite3_test_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "untitled::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-untitled-Debug-37130c060a6e21a27193.json",
+					"name" : "untitled",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/alexey/CLionProjects/untitled/cmake-build-debug",
+		"source" : "/Users/alexey/CLionProjects/untitled"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

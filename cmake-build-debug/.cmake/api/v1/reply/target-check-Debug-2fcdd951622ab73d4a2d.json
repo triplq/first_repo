@@ -1,0 +1,162 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_dependencies",
+			"soci_backend_test"
+		],
+		"files" : 
+		[
+			"lib/soci/CMakeLists.txt",
+			"lib/soci/cmake/SociBackend.cmake",
+			"lib/soci/tests/empty/CMakeLists.txt",
+			"lib/soci/tests/mysql/CMakeLists.txt",
+			"lib/soci/tests/sqlite3/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 234,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 12,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 356,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 378,
+				"parent" : 3
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 12,
+				"parent" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 356,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 378,
+				"parent" : 7
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 12,
+				"parent" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 356,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 378,
+				"parent" : 11
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "soci_empty_test::@56e498effce7896c8028"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "soci_empty_test_static::@56e498effce7896c8028"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "soci_mysql_test::@bbdaaae6258f2afec75d"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "soci_mysql_test_static::@bbdaaae6258f2afec75d"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "soci_sqlite3_test::@29d6e5bae5a57bbd37e8"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "soci_sqlite3_test_static::@29d6e5bae5a57bbd37e8"
+		}
+	],
+	"id" : "check::@ec6a6f458733ff413800",
+	"name" : "check",
+	"paths" : 
+	{
+		"build" : "soci",
+		"source" : "lib/soci"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/soci/CMakeFiles/check",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/soci/CMakeFiles/check.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
